@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sercan</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="../images/sercan.jpeg" alt="" /></span>
+							<h1 id="title">Sercan Kara</h1>
+							<p>Yazılım Mühendisi</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Anasayfa</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portföy</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Hakkımda</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">İletişim</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Merhaba' Ben <strong>Sercan</strong>Yazılım Mühendisliği 3.sınıf öğrencisiyim.<br />
+								Örnek olarak yaptığım cv me iletişim kısmından yorum bırakırsanız sevinirim.</h2>
+								<p>Fırat Üniversitesi-Yazılım Mühendisliği</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Devam Et</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portföy</h2>
+							</header>
+
+							<p>Burada kendimi geliştirmek için yapmış olduğum çalışmalar yer almaktadır.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/res1.jpg" alt="" /></a>
+										<header>
+											<h3>Afiş Tasarımı</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/res2.jpg" alt="" /></a>
+										<header>
+											<h3>Web Tasarım ve Programlama</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/res3.jpg" alt="" /></a>
+										<header>
+											<h3>Unity Oyun Geliştirme</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/res4.jpeg" alt="" /></a>
+										<header>
+											<h3>IOS</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/res5.jpg" alt="" /></a>
+										<header>
+											<h3>Udemy Eğitim</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="../images/sql.jpg" alt="" /></a>
+										<header>
+											<h3>SQL</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Hakkımda</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="../images/res6.jpeg" alt="" /></a>
+
+							<p>Fırat Üniversitesi Yazılım Mühendisliği 3.sınıf öğrencisiyim.Front-end ve Back-end 'e olan ilgim ve merakımla gün geçtikçe kendimi geliş
+							tirmeye çalışıyorum.Aynı zamanda mobil ve oyun yazılımına olan merakım ile uygulamalar geliştirmekteyim.Şirketinize hız katacağıma emin olun.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>İletişim</h2>
+							</header>
+
+							<p>
+							  Deneyimleriniz ve fikirlenizi lütfen benim ile paylaşın.
+							</p>
+
+						<%= yield %>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Sercan Kara.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollzer.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
