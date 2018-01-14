@@ -70,7 +70,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Merhaba' Ben <strong>Sercan</strong>Yazılım Mühendisliği 3.sınıf öğrencisiyim.<br />
+								<h2 class="alt">Merhaba' Ben <strong>Sercan</strong>Yazılım Mühendisliği 4.sınıf öğrencisiyim.<br />
 								Örnek olarak yaptığım cv me iletişim kısmından yorum bırakırsanız sevinirim.</h2>
 								<p>Fırat Üniversitesi-Yazılım Mühendisliği</p>
 							</header>
@@ -150,7 +150,7 @@
 
 							<a href="#" class="image featured"><img src="../images/res6.jpeg" alt="" /></a>
 
-							<p>Fırat Üniversitesi Yazılım Mühendisliği 3.sınıf öğrencisiyim.Front-end ve Back-end 'e olan ilgim ve merakımla gün geçtikçe kendimi geliş
+							<p>Fırat Üniversitesi Yazılım Mühendisliği 4.sınıf öğrencisiyim.Front-end ve Back-end 'e olan ilgim ve merakımla gün geçtikçe kendimi geliş
 							tirmeye çalışıyorum.Aynı zamanda mobil ve oyun yazılımına olan merakım ile uygulamalar geliştirmekteyim.Şirketinize hız katacağıma emin olun.</p>
 
 						</div>
@@ -169,6 +169,10 @@
 							</p>
 
 						<%= yield %>
+							
+							<% request.env.each do |key, value| %>
+ <strong><%= key %></strong> => <%= value %><br/>
+<% end %>
 
 
 						</div>
